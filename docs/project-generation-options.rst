@@ -34,6 +34,10 @@ use_celery [n]
     Whether to use Celery_. This gives you the ability to use distributed task
     queues in your project.
 
+use_jenkins [y]
+    Whether to use Jenkins Build Pipelines. If you are 
+    creating a service this is a requirement.
+    
 use_mailhog [n]
     Whether to use MailHog_. MailHog is a tool that simulates email receiving
     for development purposes. It runs a simple SMTP server which catches

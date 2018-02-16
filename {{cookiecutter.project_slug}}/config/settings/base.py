@@ -277,6 +277,10 @@ else:
 ########## END CELERY
 {% endif %}
 
+{% if cookeiecutter.use_jenkins == 'y' %}
+########## Jenkins
+{% endif %}
+
 {%- if cookiecutter.use_compressor == 'y'-%}
 # django-compressor
 # ------------------------------------------------------------------------------
